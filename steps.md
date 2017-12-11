@@ -51,3 +51,28 @@ Agregamos la ruta de nuestro repositorio de Github ( para esto la copiamos desde
 `git remote add nuestro_git https://github.com/<su usuario de git>/evidencia.git`
 
 Ahora ya podemos iniciar a trabajar nuestro repositorio.
+
+## Creando los archivos necesarios
+
+Lo primero que harémos es crear el archivo de **README** para que funcione de portada para nuestra evidencia.
+
+Desde la carpeta de `evidencia` usamos el siguiente comando.
+
+`echo "#Evidencia de <Aquí va su nombre>" > README.md`
+
+
+Cada uno de los cinco ejercicios deberá cumplir con lo siguiente:
+
+- Será añadido utilizando una `branch` y un `pull request`.
+- Tendrá su propia carpeta con los siguientes elementos: 
+   - Tendrá su archivo de README.md con su descripción
+   - Tendrá el archivo del ejercicio **.c**
+- Se harán dos commits:
+   - El primer **commit** tendrá la descripción y el ejercicio
+   - El segundo **commit** tendrá únicamente la descripción
+   
+A continuación se describe como realizar este proceso
+
+Desde `Git Bash` accedemos a la carpeta de `evidencia` y creamos una nueva `branch`. Asegurese de usar un nombre de interes.
+
+`git branch <nombre de la rama> `
